@@ -5,7 +5,7 @@
   "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
   "scripts": {
     "develop": "gatsby develop",
-    "dev": "gatsby develop -o",
+    "dev": "yarn && gatsby develop -o",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
