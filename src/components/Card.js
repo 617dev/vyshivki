@@ -44,10 +44,10 @@ const Content = styled.div`
   background: ${props => rgba(props.theme.colors.link, 0.65)};
   height: 0;
 
-  ${CardItem}:hover & {
-    opacity: 1;
-    height: 120px;
-  }
+  ${'' /* ${CardItem}:hover & { */}
+  opacity: 1;
+  height: 120px;
+  ${'' /* } */}
 `
 
 const Bottom = styled.div`
