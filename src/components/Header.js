@@ -30,7 +30,7 @@ const Avatar = styled.div`
   -ms-interpolation-mode: nearest-neighbor;
 
   img {
-    border-radius: 50%;
+    height: 125px;
   }
 `
 
