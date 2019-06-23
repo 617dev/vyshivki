@@ -10,23 +10,6 @@ const Content = styled.footer`
   background: ${props => props.theme.colors.bg};
 `
 
-const Footer = () => (
-  <Content>
-    &copy; 2019 by Gatsby Starter Portfolio - Emilia. Pictures by{' '}
-    <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">
-      Unsplash
-    </a>
-    . Design by{' '}
-    <a href="https://www.lekoarts.de/en" target="_blank" rel="noopener noreferrer">
-      LekoArts
-    </a>
-    .<br />
-    Have a look at the{' '}
-    <a href="https://github.com/LekoArts/gatsby-starter-portfolio-emilia" target="_blank" rel="noopener noreferrer">
-      Github repository
-    </a>
-    !
-  </Content>
-)
+const Footer = () => <Content>&copy; 2019 | Stichings by Babulya Lyuba | Design by her grandson @alexjsdev</Content>
 
 export default Footer
