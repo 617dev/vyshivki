@@ -3,7 +3,7 @@ module.exports = {
 
   siteTitle: "Babulya's Vyshivki", // Navigation and Site Title
   siteTitleAlt: "Babulya's Vyshivki - A cross stiching blog", // Alternative Site title for SEO
-  siteTitleShort: 'Emilia', // short_name for manifest
+  siteTitleShort: 'Vyshivki', // short_name for manifest
   siteHeadline: 'Creating art with thread.', // Headline for schema.org JSONLD
   siteUrl: 'https://vyshivki.netlify.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element

@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-emilia",
-  "description": "Dark themed, image-heavy portfolio. Page transitions & animations. Big images & gatsby-mdx.",
+  "name": "vyshivki",
+  "description": "Babulya's vyshivki",
   "version": "3.0.0",
-  "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+  "author": "alexjsdev",
   "scripts": {
     "develop": "gatsby develop",
     "dev": "yarn && gatsby develop -o",
@@ -68,9 +68,8 @@
     "prettier": "^1.18.2",
     "start-server-and-test": "^1.9.1"
   },
-  "homepage": "https://emilia.lekoarts.de",
+  "homepage": "https://vyshivki.netlify.com",
   "bugs": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-emilia/issues"
   },
   "keywords": [
     "gatsby",
@@ -78,10 +77,5 @@
     "gatsby-starter-portfolio",
     "lekoarts"
   ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LekoArts/gatsby-starter-portfolio-emilia.git"
-  }
+  "license": "MIT"
 }

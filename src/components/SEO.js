@@ -145,7 +145,6 @@ const SEO = ({ postNode, postPath, postSEO }) => {
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="image" content={image} />
-      <meta name="gatsby-starter" content="Gatsby Starter Portfolio Emilia" />
       <meta property="og:locale" content={config.ogLanguage} />
       <meta property="og:site_name" content={config.ogSiteName ? config.ogSiteName : ''} />
       <meta property="og:url" content={URL} />
