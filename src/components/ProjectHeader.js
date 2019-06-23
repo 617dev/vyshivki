@@ -50,7 +50,8 @@ const Avatar = styled.div`
 
 const Name = styled(animated.h4)`
   margin: 0 0 0 1rem;
-  color: ${props => props.theme.colors.color};
+  color: ${props => props.theme.colors.heading};
+  font-family: Pacifico, cursive;
 `
 
 const Details = styled.div`
@@ -59,7 +60,8 @@ const Details = styled.div`
   text-align: center;
 
   h1 {
-    color: ${props => props.theme.colors.color};
+    color: ${props => props.theme.colors.heading};
+    font-family: Pacifico, cursive;
   }
 `
 

@@ -36,11 +36,17 @@ const Avatar = styled.div`
 
 const Name = styled.h1`
   margin: 1rem 0 0.25rem 0;
-  color: ${props => props.theme.colors.color};
+  color: ${props => props.theme.colors.heading};
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+
+  @media (max-width: ${props => props.theme.breakpoints.s}) {
+    font-size: 2rem;
+  }
 `
 
 const Location = styled.div`
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   display: flex;
   align-items: center;
   justify-content: center;

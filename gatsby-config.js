@@ -57,5 +57,16 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Pacifico`,
+            subsets: [`Latin`, `Cyrillic`],
+          },
+        ],
+      },
+    },
   ],
 }
